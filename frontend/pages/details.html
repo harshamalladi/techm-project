@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Details</title>
+  <link rel="stylesheet" href="../styles/details.css" />
+</head>
+
+<body>
+  <div class="background">
+    <img class="logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" />
+    <div class="card">
+      <h1>Add Details</h1>
+      <form class="form" id="subscriptionForm">
+        <input type="tel" id="contactNumber" placeholder="Contact Number" required />
+        <select id="serverType" required>
+          <option value="" disabled selected>Select Server Type</option>
+          <option>UCS Manager</option>
+        </select>
+
+        <input type="text" id="serverName" placeholder="Server name" required />
+
+        <input type="number" id="port" placeholder="Port" required />
+
+        <input type="text" id="username" placeholder="Username" required />
+
+        <input type="password" id="password" placeholder="Password" required />
+
+        <div class="buttons">
+          <input class="button" type="button" value="Back" onclick="window.history.back();" />
+          <input class="button" type="submit" value="Save" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="../scripts/details.js"></script>
+</body>
+
+</html>

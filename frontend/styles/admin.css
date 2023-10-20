@@ -1,0 +1,59 @@
+/* Add the following CSS to your admin.css file */
+.background {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logo {
+    max-width: 200px;
+    margin: 20px;
+   
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+ 
+}
+
+.title {
+    font-size: 42px;
+    margin: 10px 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.data-container {
+    margin-top: 20px;
+}
+
+/* Style for intersight items */
+#intersight div {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Style for traditional items */
+#traditional div {
+    background-color: #ffe0b2;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+h1{
+    background-color: rgba(255, 36, 83, 0.651);
+    padding: 10px;
+}

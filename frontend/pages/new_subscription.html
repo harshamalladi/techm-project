@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New subscription</title>
+    <link rel="stylesheet" href="../styles/new_subscription.css" />
+</head>
+
+<body>
+    <div class="background">
+        <img class="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png">
+        <div class="card">
+            <h3> Select the type of subscription </h3>
+            <form class="form" id="subscriptionForm">
+                <select id="subscriptionType" required>
+                    <option value="" disabled selected>Select Type</option>
+                    <option value="Traditional">Traditional</option>
+                    <option value="Intersight">Intersight</option>
+                </select>
+                <input type="submit" value="Next">
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/new_subscription.js"></script>
+</body>
+
+</html>

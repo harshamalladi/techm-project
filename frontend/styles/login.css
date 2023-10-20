@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgb(0, 0, 0,0.7) 100%), 
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/fe1147dd-78be-44aa-a0e5-2d2994305a13/IN-en-20231016-popsignuptwoweeks-perspective_alpha_website_medium.jpg") ;
+    background-size: 130%;
+    background-position: center center;
+
+}
+
+input {
+    color: black;
+    font-size: 18px;
+    padding: 14px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.card {
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    display: grid;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.form {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+
+
+}
+
+.card h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+.form button {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+}
+
+.form .link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.form .link:hover{
+    text-decoration: underline;
+}
+
+
+.logo {
+    width: 12%;
+    position: absolute;
+    left: 50px; 
+    top: 30px;
+}
+
+.button:hover {
+    color: #000;
+    background-color: rgba(255, 0, 0, 0.699);
+    color: white;
+
+}

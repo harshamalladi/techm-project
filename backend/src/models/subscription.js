@@ -10,6 +10,7 @@ const subscriptionSchema = new mongoose.Schema({
   password: { type: String,  },
   subscriptionId: { type: String },
   devices: [{ type: String }],
+  subscriptionType:{type:String}
 });
 
 module.exports = mongoose.model('Subscription', subscriptionSchema);
